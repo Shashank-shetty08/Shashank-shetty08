@@ -1,8 +1,8 @@
-                                                                                                                # HI 🖐️, I'am Shashank shetty
+ # HI 🖐️, I'am Shashank shetty
 
 
 # 💫 About Me:
-I am a student
+I am a  AIML Student
 
   
 ## 🌐 Socials:
