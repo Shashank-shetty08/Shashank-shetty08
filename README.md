@@ -1,4 +1,4 @@
-# HI 🖐️, I'am Shashank shetty:
+# HI 🖐️, I'am Shashank shetty
 
 
 # 💫 About Me:
