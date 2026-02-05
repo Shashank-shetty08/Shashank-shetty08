@@ -1,10 +1,7 @@
-# 🙋‍♂️ Hi There:
-I am  Shashank shetty
-
 # 💫 About Me:
 I am a student
 
- 
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shashank__shetty__.08) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@Shashi) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shashishashank129@gmail.com) 
 
@@ -17,9 +14,6 @@ I am a student
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Shashank-shetty08&theme=rose&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Shashank-shetty08&icon=0&color=0)](https://visitcount.itsvg.in)
