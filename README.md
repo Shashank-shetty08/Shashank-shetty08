@@ -2,7 +2,7 @@
 <h3 align="center">AIML Student | AI & ML Enthusiast | 🚀</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Artificial+Intelligence+%26+Machine+Learning;AI+%7C+ML+%7C;;Always+Learning+%26+Building&font=Fira+Code&center=true&width=650&height=45&color=58A6FF&vCenter=true&pause=1000" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Artificial+Intelligence+%26+Machine+Learning;AI+%7C+ML%7C;;Always+Learning&font=Fira+Code&center=true&width=650&height=45&color=58A6FF&vCenter=true&pause=1000" />
 </p>
 
 ---
