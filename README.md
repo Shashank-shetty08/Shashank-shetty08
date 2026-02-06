@@ -1,24 +1,212 @@
- # HI 🖐️, I'am Shashank shetty
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub · Home</title>
 
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
-# 💫 About Me:
-I am a  AIML Student
+body{
+  background:#0d1117;
+  color:#c9d1d9;
+}
 
-  
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shashank__shetty__.08) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shashishashank129@gmail.com) 
+/* ===== NAVBAR ===== */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 20px;
+  background:#161b22;
+  border-bottom:1px solid #30363d;
+}
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat&logo=adobe&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=flat&logo=nVIDIA&logoColor=white) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=flat&logo=Meta&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Shashank-shetty08&theme=ambient_gradient&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Shashank-shetty08&theme=ambient_gradient&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shashank-shetty08&theme=ambient_gradient&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+.left{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Shashank-shetty08&theme=rose&no-frame=false&no-bg=true&margin-w=4)
+.logo{
+  font-size:18px;
+  font-weight:bold;
+}
 
----
-[![](https://visitcount.itsvg.in/api?id=Shashank-shetty08&icon=0&color=0)](https://visitcount.itsvg.in)
+.search{
+  padding:6px 10px;
+  background:#0d1117;
+  border:1px solid #30363d;
+  border-radius:6px;
+  color:#c9d1d9;
+}
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+.right{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.avatar{
+  width:32px;
+  height:32px;
+  border-radius:50%;
+}
+
+/* ===== BUTTON ===== */
+.btn-green{
+  background:#238636;
+  border:none;
+  padding:6px 14px;
+  border-radius:6px;
+  color:white;
+  cursor:pointer;
+}
+
+.btn-green:hover{
+  background:#2ea043;
+}
+
+/* ===== LAYOUT ===== */
+.container{
+  display:flex;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+  width:260px;
+  padding:25px;
+  border-right:1px solid #30363d;
+}
+
+.sidebar h3{
+  margin-bottom:15px;
+}
+
+.sidebar li{
+  font-size:14px;
+  margin-bottom:10px;
+  list-style:none;
+  color:#8b949e;
+}
+
+/* ===== MAIN ===== */
+.main{
+  flex:1;
+  padding:40px;
+}
+
+.main h1{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+.subtitle{
+  color:#8b949e;
+  margin-bottom:30px;
+}
+
+/* ===== CARDS ===== */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#161b22;
+  border:1px solid #30363d;
+  border-radius:8px;
+  padding:20px;
+}
+
+.card h3{
+  margin-bottom:10px;
+}
+
+.card p{
+  font-size:14px;
+  color:#8b949e;
+  margin-bottom:15px;
+}
+
+.card button{
+  padding:6px 12px;
+  border-radius:6px;
+  border:1px solid #30363d;
+  background:transparent;
+  color:#c9d1d9;
+  cursor:pointer;
+}
+
+.card button:hover{
+  background:#21262d;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<div class="navbar">
+  <div class="left">
+    <div class="logo">🐙 GitHub</div>
+    <input class="search" type="text" placeholder="Search or jump to...">
+  </div>
+  <div class="right">
+    <button class="btn-green">+ New</button>
+    <img src="https://via.placeholder.com/32" class="avatar">
+  </div>
+</div>
+
+<!-- ===== BODY ===== -->
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h3>Get started</h3>
+    <ul>
+      <li>✔ Create a repository</li>
+      <li>✔ Complete your profile</li>
+      <li>✔ Explore GitHub</li>
+    </ul>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <h1>Welcome to GitHub 👋</h1>
+    <p class="subtitle">
+      Ready to build? Start by creating your first repository.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Create a repository</h3>
+        <p>A repository contains all your project files.</p>
+        <button class="btn-green">New repository</button>
+      </div>
+
+      <div class="card">
+        <h3>Import a repository</h3>
+        <p>Bring code from another platform.</p>
+        <button>Import</button>
+      </div>
+
+      <div class="card">
+        <h3>Explore GitHub</h3>
+        <p>Discover trending repositories.</p>
+        <button>Explore</button>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+</body>
+</html>
